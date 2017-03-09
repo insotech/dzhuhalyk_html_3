@@ -67,7 +67,7 @@ body {
     padding-left: 47px;
 }
 .topmenu {
-	background: url(../img/topmenu.jpg);
+	background: linear-gradient(#5e5e5e, #454344);
     height: 40px;
     width: 965px;
     position: relative;
@@ -104,6 +104,7 @@ a {
 	background-color: #464646;
 	border-right: 1px solid #c8c8c8;
 	border-left: 1px solid #c8c8c8;
+    margin: 0px -1px;
 }
 .laptops, 
 .tablets, 
@@ -123,10 +124,10 @@ a {
 	border-top: 1px solid #c8c8c8;
 }
 .content {
-	position: absolute;
+	float: left;
 	padding-left: 47px;
 	width: 240px;
-	top: 210px;
+	margin-top: 78px;
 	font-size: 13.33px;
 }
 .side {
@@ -148,31 +149,30 @@ a {
 	background-color: #F9F9F9;
 }
 .conteiner {
-	position: relative;
+	float: right;
 	width: 677px;
-	left: 335px;
-	top: 78px;
+	margin-right:  48px;
+    margin-top: 78px;
+	margin-bottom: 64px;
 }
 .bike{
     border: 1px solid  #c8c8c8
 }
 .text {
 	display: block;
-	position: absolute;
-	top: 440px;
+    margin-top: 38px;
 	padding: 0px 20px;
 	font-size: 14px;
 	line-height: 1.5;
     color: #585858;
 }
 .footer {
+    clear:both;
 	height: 40px;
 	width: 965px;
 	display: block;
 	margin: 0 auto;
-	position: relative;
-	top: 327px;
-	background: url(../img/bottmenu.jpg);
+	background-color: #e1e1e1;
 }
 .mainpagefm, 
 .itemsfm, 
